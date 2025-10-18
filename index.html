@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zgłoś swoje miejsce</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <h1>Zgłoś swoje ulubione miejsce</h1>
+
+  <form action="https://formspree.io/f/YOUR_ID_HERE" method="POST">
+    <label>Imię:
+      <input type="text" name="name" required />
+    </label><br/>
+
+    <label>Email:
+      <input type="email" name="email" required />
+    </label><br/>
+
+    <label>Nazwa miejsca:
+      <input type="text" name="place" required />
+    </label><br/>
+
+    <label>Opis:
+      <textarea name="message" rows="5" required></textarea>
+    </label><br/>
+
+    <button type="submit">Wyślij</button>
+  </form>
+
+  <h2>Sprawdź na mapie:</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=PASTE_YOUR_MAP_LINK_HERE"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</body>
+</html>
