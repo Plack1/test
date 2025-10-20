@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | PodNapięciem</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="PodNapięciem">
+        <h1>PodNapięciem</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="produkty.html">Produkty</a></li>
+            <li><a href="promocje.html">Promocje</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main style="max-width:800px; margin:auto; padding:30px;">
+    <h2>Skontaktuj się z nami</h2>
+    <form action="https://formsubmit.co/projektdoszkoly321@gmail.com" method="POST" class="contact-form">
+
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Wyślij wiadomość</button>
+    </form>
+
+ <div style="text-align:center; margin-top:40px;">
+        <h3>Nasza lokalizacja – Jaworzno</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163486.85711641153!2d19.136525725082226!3d50.18951810388743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c280d607cca1%3A0xe0bf75d070d5e1d5!2sJaworzno!5e0!3m2!1spl!2spl!4v1760807989189!5m2!1spl!2spl" 
+            width="100%" 
+            height="350" 
+            style="border:0; border-radius:10px;"  
+            loading="lazy">
+        </iframe>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 PodNapięciem | Profesjonalny sklep elektryczny online</p>
+</footer>
+
+</body>
+</html>
+
+
