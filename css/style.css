@@ -184,3 +184,55 @@ nav a.active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styl strony dziekuje.html */
+.thanks-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.thanks-container h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.thanks-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.btn-home {
+    display: inline-block;
+    background-color: #ffaa00;
+    color: #1a1a1a;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #ffcc33;
+}
+
